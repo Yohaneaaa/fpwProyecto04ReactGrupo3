@@ -1,4 +1,4 @@
-import Formulario from "../components/Formulario";
+import Formulario from "./components/formulario";
 import { Container, Row, Col, Card } from "react-bootstrap";
 
 function App() {
