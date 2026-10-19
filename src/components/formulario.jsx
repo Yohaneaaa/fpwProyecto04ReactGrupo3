@@ -1,5 +1,6 @@
 import { useState } from "react";
-import { Form, Button } from "react-bootstrap";
+import { Form, Button } from "react-bootstrap"; 
+import "../css/formulario.css";
 
 const Formulario = ({ guardarNuevoJugador }) => {
   const [nombre, setNombre] = useState("");
