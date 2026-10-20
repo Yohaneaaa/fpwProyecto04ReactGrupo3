@@ -1,18 +1,21 @@
 body {
-  background-color: hsl(35, 59%, 90%); 
+  background-color: #f9e6ee !important; 
   font-family: Georgia, serif;
 }
 
+.card {
+  background-color: transparent !important;
+  border: none !important;
+}
+
 form {
-  max-width: 500px;
-  margin: 40px auto;
-  padding: 30px;
-  background-color: #f9e6ee; 
+  width: 100%;
+  padding: 20px;
+  background-color: hsl(35, 59%, 90%) !important; 
   border: 2px solid #b7e4c7;
   border-radius: 15px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
 }
-
 
 .form-label {
   color: #4f6f52;
@@ -32,18 +35,27 @@ form {
   box-shadow: 0 0 6px #95d5b2;
 }
 
-.btn-outline-success {
+.btn-outline-success, .btn-primary {
   width: 100%;
-  background-color: #a8d5ba;
-  color: #2d6a4f;
-  border: none;
+  background-color: #a8d5ba !important;
+  color: #2d6a4f !important;
+  border: 2px solid #95d5b2 !important;
   border-radius: 10px;
   font-weight: bold;
   font-size: 16px;
   padding: 12px;
 }
 
-.btn-outline-success:hover {
-  background-color: #7bc9a4;
-  color: white;
+.btn-outline-success:hover, .btn-primary:hover {
+  background-color: #7bc9a4 !important;
+  border-color: #7bc9a4 !important;
+  color: white !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #4f6f52;
+}
+
+p, span, label, th, td {
+  color: #334e35;
 }
