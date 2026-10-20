@@ -44,14 +44,14 @@ function App() {
         <Col md={6} className="mb-4">
           <Card className="shadow-sm border-0 h-100 text-center">
             <Card.Body className="p-4 d-flex flex-column align-items-center justify-content-center">
-              <Card.Title className="mb-3">🎲 El Dado "</Card.Title>
+              <Card.Title className="mb-3 fs-3">Prueba tu suerte...🍀🍀</Card.Title>
               
               <div className="my-3 w-100">
                 <Dado3D numeroAleatorio={numeroAleatorio} tiradaId={tiradaId} />
               </div>
 
               <h5 className="mt-3 mb-3 text-secondary">
-                {tiradaId > 0 ? obtenerResultado(numeroAleatorio) : "¡Probá tu suerte! 🍀"}
+                {tiradaId > 0 ? obtenerResultado(numeroAleatorio) : ""}
               </h5>
 
               <Button
